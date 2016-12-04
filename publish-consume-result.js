@@ -1,1250 +1,3253 @@
 {
-  "type: baremetal, queue: lazy-queue, consumers: 10, producers: 0":{
+  "type: vps, queue: lazy-queue, consumers: 0, producers: 10":{
     "send-bytes-rate":0.0,
     "recv-msg-rate":0.0,
-    "send-msg-rate":0.0,
-    "recv-bytes-rate":0.0,
-    "samples":[]
-  },
-  "type: baremetal, queue: normal-queue, consumers: 0, producers: 10":{
-    "send-bytes-rate":0.0,
-    "recv-msg-rate":0.0,
-    "send-msg-rate":83388.03278688525,
+    "send-msg-rate":56513.00270001421,
     "recv-bytes-rate":0.0,
     "samples":[{
       "elapsed":1000,
       "send-bytes-rate":0.0,
       "recv-msg-rate":0.0,
-      "send-msg-rate":220802.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":2005,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":0.0,
-      "send-msg-rate":205105.47263681592,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":3005,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":0.0,
-      "send-msg-rate":128217.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":4007,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":0.0,
-      "send-msg-rate":91619.76047904191,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":5007,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":0.0,
-      "send-msg-rate":88297.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":6007,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":0.0,
-      "send-msg-rate":80678.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":7007,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":0.0,
-      "send-msg-rate":71669.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":8007,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":0.0,
-      "send-msg-rate":96886.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":9055,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":0.0,
-      "send-msg-rate":74400.76335877863,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":10107,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":0.0,
-      "send-msg-rate":87680.60836501901,
-      "recv-bytes-rate":0.0
-    }]
-  },
-  "type: baremetal, queue: normal-queue, consumers: 0, producers: 0":{
-    "send-bytes-rate":0.0,
-    "recv-msg-rate":0.0,
-    "send-msg-rate":0.0,
-    "recv-bytes-rate":0.0,
-    "samples":[]
-  },
-  "type: baremetal, queue: lazy-queue, consumers: 10, producers: 10":{
-    "send-bytes-rate":0.0,
-    "recv-msg-rate":48722.41818181818,
-    "avg-latency":27878346,
-    "send-msg-rate":2674.509090909091,
-    "recv-bytes-rate":0.0,
-    "samples":[{
-      "elapsed":1000,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":16436.0,
-      "max-latency":739304,
-      "min-latency":21173,
-      "avg-latency":587128,
-      "send-msg-rate":92463.0,
+      "send-msg-rate":146476.0,
       "recv-bytes-rate":0.0
     },{
       "elapsed":2000,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":67733.0,
-      "max-latency":1676234,
-      "min-latency":663443,
-      "avg-latency":1081059,
-      "send-msg-rate":29455.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":161932.0,
       "recv-bytes-rate":0.0
     },{
       "elapsed":3000,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48102.0,
-      "max-latency":2649714,
-      "min-latency":1630098,
-      "avg-latency":2146197,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":90732.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":4003,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":85232.30309072782,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":5003,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":70808.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":6003,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":61689.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":7030,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":65948.39337877312,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":8030,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":59166.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":9030,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":64926.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":10031,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":61363.63636363636,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":11040,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":11832.50743310208,
+      "recv-bytes-rate":0.0
+    }]
+  },
+  "type: baremetal, queue: normal-queue, consumers: 0, producers: 10":{
+    "send-bytes-rate":0.0,
+    "recv-msg-rate":0.0,
+    "send-msg-rate":61913.09966079793,
+    "recv-bytes-rate":0.0,
+    "samples":[{
+      "elapsed":1000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":164682.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":2000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":160451.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":3016,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":111357.28346456694,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":4026,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":77941.58415841585,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":5026,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":61579.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":6149,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":53777.38201246661,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":7149,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":70489.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":8149,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":65144.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":9149,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":72103.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":10217,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":50177.902621722846,
+      "recv-bytes-rate":0.0
+    }]
+  },
+  "type: vps, queue: lazy-queue, consumers: 10, producers: 10":{
+    "send-bytes-rate":0.0,
+    "recv-msg-rate":37018.14258312021,
+    "avg-latency":24874453,
+    "send-msg-rate":2063.698849104859,
+    "recv-bytes-rate":0.0,
+    "samples":[{
+      "elapsed":1000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":8817.0,
+      "max-latency":375782,
+      "min-latency":12230,
+      "avg-latency":193366,
+      "send-msg-rate":59544.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":2002,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":27682.63473053892,
+      "max-latency":1374065,
+      "min-latency":328440,
+      "avg-latency":882938,
+      "send-msg-rate":11858.283433133733,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":3002,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":35003.0,
+      "max-latency":2366293,
+      "min-latency":1327505,
+      "avg-latency":1865278,
+      "send-msg-rate":5348.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":4002,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":35108.0,
+      "max-latency":3360220,
+      "min-latency":2323523,
+      "avg-latency":2874197,
+      "send-msg-rate":15877.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":5002,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39919.0,
+      "max-latency":4357357,
+      "min-latency":3316548,
+      "avg-latency":3835958,
+      "send-msg-rate":36531.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":6002,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37562.0,
+      "max-latency":5354931,
+      "min-latency":4303931,
+      "avg-latency":4827782,
+      "send-msg-rate":14901.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":7006,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36923.30677290836,
+      "max-latency":6331395,
+      "min-latency":5272209,
+      "avg-latency":5783127,
       "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":8006,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34163.0,
+      "max-latency":7329918,
+      "min-latency":6260591,
+      "avg-latency":6802402,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":9008,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":33355.289421157686,
+      "max-latency":8320854,
+      "min-latency":7240300,
+      "avg-latency":7807676,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":10008,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38401.0,
+      "max-latency":9322910,
+      "min-latency":8200738,
+      "avg-latency":8754521,
+      "send-msg-rate":31308.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":11008,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36935.0,
+      "max-latency":10295504,
+      "min-latency":9189906,
+      "avg-latency":9737517,
+      "send-msg-rate":20535.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":12010,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38727.54491017964,
+      "max-latency":11288458,
+      "min-latency":10169166,
+      "avg-latency":10744669,
+      "send-msg-rate":0.998003992015968,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":13014,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36277.88844621514,
+      "max-latency":12283574,
+      "min-latency":11150191,
+      "avg-latency":11679818,
+      "send-msg-rate":0.9960159362549801,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":14014,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":35401.0,
+      "max-latency":13278329,
+      "min-latency":11613391,
+      "avg-latency":12604701,
+      "send-msg-rate":4.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":15014,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":35827.0,
+      "max-latency":14258767,
+      "min-latency":12221395,
+      "avg-latency":13513526,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":16018,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36388.44621513944,
+      "max-latency":15256649,
+      "min-latency":13215314,
+      "avg-latency":14466905,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":17018,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37348.0,
+      "max-latency":16193207,
+      "min-latency":11404244,
+      "avg-latency":15216502,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":18018,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":33161.0,
+      "max-latency":17171420,
+      "min-latency":12209087,
+      "avg-latency":15974819,
+      "send-msg-rate":1.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":19018,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":35325.0,
+      "max-latency":18140176,
+      "min-latency":12907780,
+      "avg-latency":16370980,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":20018,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38226.0,
+      "max-latency":19139582,
+      "min-latency":13904257,
+      "avg-latency":17012947,
+      "send-msg-rate":1.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":21018,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":33939.0,
+      "max-latency":20133186,
+      "min-latency":14900244,
+      "avg-latency":17927627,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":22018,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":31823.0,
+      "max-latency":21104053,
+      "min-latency":15898843,
+      "avg-latency":18776107,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":23018,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":35734.0,
+      "max-latency":22058598,
+      "min-latency":16894666,
+      "avg-latency":19377757,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":24018,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":32875.0,
+      "max-latency":22825444,
+      "min-latency":14237182,
+      "avg-latency":19946854,
+      "send-msg-rate":1.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":25018,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39288.0,
+      "max-latency":23815381,
+      "min-latency":14663759,
+      "avg-latency":20406489,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":26018,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":33352.0,
+      "max-latency":24812688,
+      "min-latency":15661526,
+      "avg-latency":21428669,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":27028,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":33606.930693069306,
+      "max-latency":25746394,
+      "min-latency":16658305,
+      "avg-latency":22430309,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":28030,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":33610.77844311377,
+      "max-latency":26744973,
+      "min-latency":17664078,
+      "avg-latency":23214370,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":29030,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34921.0,
+      "max-latency":27043195,
+      "min-latency":18314851,
+      "avg-latency":22971428,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":30034,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38091.633466135456,
+      "max-latency":26532661,
+      "min-latency":19310969,
+      "avg-latency":23684028,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":31035,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37485.51448551448,
+      "max-latency":27530632,
+      "min-latency":20309073,
+      "avg-latency":25117802,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":32038,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":32822.53240279163,
+      "max-latency":28529419,
+      "min-latency":21306416,
+      "avg-latency":25750713,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":33038,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":35907.0,
+      "max-latency":29525984,
+      "min-latency":22305037,
+      "avg-latency":26706322,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":34038,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":31506.0,
+      "max-latency":30522672,
+      "min-latency":23301803,
+      "avg-latency":27818323,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":35038,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":35303.0,
+      "max-latency":31474867,
+      "min-latency":24297365,
+      "avg-latency":28830449,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":36038,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36363.0,
+      "max-latency":32470221,
+      "min-latency":25293445,
+      "avg-latency":29540911,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":37038,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":32706.0,
+      "max-latency":33391057,
+      "min-latency":26307057,
+      "avg-latency":30784684,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":38038,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":41119.0,
+      "max-latency":34385368,
+      "min-latency":27278466,
+      "avg-latency":31815172,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":39038,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":35914.0,
+      "max-latency":35384533,
+      "min-latency":28273889,
+      "avg-latency":32903854,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":40038,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34818.0,
+      "max-latency":36381473,
+      "min-latency":29269735,
+      "avg-latency":33685370,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":41038,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38949.0,
+      "max-latency":37315514,
+      "min-latency":30264588,
+      "avg-latency":34586497,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":42038,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39077.0,
+      "max-latency":38310812,
+      "min-latency":31261895,
+      "avg-latency":35583521,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":43042,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39205.17928286853,
+      "max-latency":39240277,
+      "min-latency":32202133,
+      "avg-latency":36289513,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":44046,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38813.745019920316,
+      "max-latency":40036143,
+      "min-latency":33200035,
+      "avg-latency":37144430,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":45046,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38881.0,
+      "max-latency":40378955,
+      "min-latency":34195758,
+      "avg-latency":37640935,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":46046,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37874.0,
+      "max-latency":41314407,
+      "min-latency":35126237,
+      "avg-latency":38863727,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":47046,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37707.0,
+      "max-latency":42224363,
+      "min-latency":36117977,
+      "avg-latency":38277174,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":48050,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38247.011952191235,
+      "max-latency":38398572,
+      "min-latency":37048692,
+      "avg-latency":37690286,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":49050,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39747.0,
+      "max-latency":39325890,
+      "min-latency":37967164,
+      "avg-latency":38637020,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":50050,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38849.0,
+      "max-latency":40246292,
+      "min-latency":38886433,
+      "avg-latency":39545736,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":51050,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":40052.0,
+      "max-latency":41150125,
+      "min-latency":39808560,
+      "avg-latency":40478312,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":52050,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":41490.0,
+      "max-latency":41999164,
+      "min-latency":40726195,
+      "avg-latency":41363015,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":53050,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":40997.0,
+      "max-latency":42881581,
+      "min-latency":41640534,
+      "avg-latency":42280024,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":54050,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":40671.0,
+      "max-latency":43763693,
+      "min-latency":42601320,
+      "avg-latency":43196221,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    }]
+  },
+  "type: vps, queue: lazy-queue, consumers: 10, producers: 1":{
+    "send-bytes-rate":0.0,
+    "recv-msg-rate":39927.48037116345,
+    "avg-latency":6353808,
+    "send-msg-rate":2112.1341898643827,
+    "recv-bytes-rate":0.0,
+    "samples":[{
+      "elapsed":1000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":20144.0,
+      "max-latency":515920,
+      "min-latency":11351,
+      "avg-latency":286171,
+      "send-msg-rate":10856.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":2000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":41036.0,
+      "max-latency":1284751,
+      "min-latency":469420,
+      "avg-latency":875403,
+      "send-msg-rate":15060.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":3000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":41480.0,
+      "max-latency":2102565,
+      "min-latency":1282724,
+      "avg-latency":1683262,
+      "send-msg-rate":14808.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":4005,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":40813.930348258706,
+      "max-latency":2653189,
+      "min-latency":2069222,
+      "avg-latency":2327705,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":5005,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39771.0,
+      "max-latency":3398444,
+      "min-latency":2455912,
+      "avg-latency":2923487,
+      "send-msg-rate":4344.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":6007,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39886.22754491018,
+      "max-latency":4342282,
+      "min-latency":3398392,
+      "avg-latency":3877149,
+      "send-msg-rate":5876.24750499002,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":7011,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38032.86852589642,
+      "max-latency":5072363,
+      "min-latency":4268177,
+      "avg-latency":4677091,
+      "send-msg-rate":4646.414342629482,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":8011,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38010.0,
+      "max-latency":5797474,
+      "min-latency":5008913,
+      "avg-latency":5391596,
+      "send-msg-rate":5136.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":9011,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":41826.0,
+      "max-latency":6534954,
+      "min-latency":5797425,
+      "avg-latency":6143112,
+      "send-msg-rate":4344.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":10011,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39772.0,
+      "max-latency":7171867,
+      "min-latency":6477998,
+      "avg-latency":6795589,
+      "send-msg-rate":253.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":11011,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39549.0,
+      "max-latency":7692502,
+      "min-latency":6641131,
+      "avg-latency":7190559,
+      "send-msg-rate":4960.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":12011,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37285.0,
+      "max-latency":7555165,
+      "min-latency":6625670,
+      "avg-latency":7135122,
+      "send-msg-rate":1.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":13011,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":35603.0,
+      "max-latency":7585760,
+      "min-latency":6788232,
+      "avg-latency":7182413,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":14015,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38781.87250996016,
+      "max-latency":7985010,
+      "min-latency":7011927,
+      "avg-latency":7481729,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":15015,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":41689.0,
+      "max-latency":7964121,
+      "min-latency":6934255,
+      "avg-latency":7452465,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":16015,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38554.0,
+      "max-latency":8007664,
+      "min-latency":6961389,
+      "avg-latency":7544513,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":17015,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":43356.0,
+      "max-latency":7903578,
+      "min-latency":6872772,
+      "avg-latency":7424756,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":18015,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38710.0,
+      "max-latency":7834381,
+      "min-latency":7001455,
+      "avg-latency":7399483,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    }]
+  },
+  "type: baremetal, queue: normal-queue, consumers: 0, producers: 1":{
+    "send-bytes-rate":0.0,
+    "recv-msg-rate":0.0,
+    "send-msg-rate":28202.451637617316,
+    "recv-bytes-rate":0.0,
+    "samples":[{
+      "elapsed":1000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":47729.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":2000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":33260.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":3100,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":19768.18181818182,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":4110,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":25135.643564356436,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":5120,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":24298.019801980197,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":6230,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":23633.333333333332,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":7300,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":23727.10280373832,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":8300,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":27213.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":9331,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":20389.912706110572,
+      "recv-bytes-rate":0.0
+    }]
+  },
+  "type: baremetal, queue: normal-queue, consumers: 10, producers: 1":{
+    "send-bytes-rate":0.0,
+    "recv-msg-rate":42095.21979711036,
+    "avg-latency":6037475,
+    "send-msg-rate":2179.5265908392253,
+    "recv-bytes-rate":0.0,
+    "samples":[{
+      "elapsed":1001,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":25458.54145854146,
+      "max-latency":607468,
+      "min-latency":14217,
+      "avg-latency":319165,
+      "send-msg-rate":13653.346653346653,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":2005,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38104.58167330677,
+      "max-latency":1418443,
+      "min-latency":562090,
+      "avg-latency":971699,
+      "send-msg-rate":10213.147410358566,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":3005,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36396.0,
+      "max-latency":2277472,
+      "min-latency":1417597,
+      "avg-latency":1827275,
+      "send-msg-rate":13277.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":4009,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38610.5577689243,
+      "max-latency":3014192,
+      "min-latency":2264265,
+      "avg-latency":2632633,
+      "send-msg-rate":3094.621513944223,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":5009,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38864.0,
+      "max-latency":3511141,
+      "min-latency":2710356,
+      "avg-latency":3104913,
+      "send-msg-rate":3818.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":6009,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39088.0,
+      "max-latency":4154251,
+      "min-latency":3510977,
+      "avg-latency":3847737,
+      "send-msg-rate":5924.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":7009,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39887.0,
+      "max-latency":4837161,
+      "min-latency":4153779,
+      "avg-latency":4480306,
+      "send-msg-rate":5077.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":8013,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":42996.01593625498,
+      "max-latency":5493951,
+      "min-latency":4768325,
+      "avg-latency":5125518,
+      "send-msg-rate":3371.5139442231075,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":9013,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":41432.0,
+      "max-latency":6200826,
+      "min-latency":5408162,
+      "avg-latency":5814652,
+      "send-msg-rate":4231.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":10013,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38184.0,
+      "max-latency":6988156,
+      "min-latency":6200852,
+      "avg-latency":6572985,
+      "send-msg-rate":3385.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":11013,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39227.0,
+      "max-latency":7499581,
+      "min-latency":6487785,
+      "avg-latency":6999834,
+      "send-msg-rate":2539.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":12013,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37245.0,
+      "max-latency":7308412,
+      "min-latency":6424448,
+      "avg-latency":6891764,
+      "send-msg-rate":1.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":13017,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":40053.78486055777,
+      "max-latency":7445007,
+      "min-latency":6699459,
+      "avg-latency":7053286,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":14020,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":41748.75373878365,
+      "max-latency":7538126,
+      "min-latency":6626876,
+      "avg-latency":7036885,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":15020,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":43329.0,
+      "max-latency":7563304,
+      "min-latency":6645413,
+      "avg-latency":7053065,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":16020,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39892.0,
+      "max-latency":7155809,
+      "min-latency":6480509,
+      "avg-latency":6815278,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":17021,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37433.56643356643,
+      "max-latency":7212886,
+      "min-latency":6393187,
+      "avg-latency":6795669,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    }]
+  },
+  "type: baremetal, queue: lazy-queue, consumers: 0, producers: 1":{
+    "send-bytes-rate":0.0,
+    "recv-msg-rate":0.0,
+    "send-msg-rate":24443.457943925234,
+    "recv-bytes-rate":0.0,
+    "samples":[{
+      "elapsed":1009,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":17641.228939544104,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":2052,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":27689.35762224353,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":3059,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":28370.407149950348,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":4059,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":37692.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":5179,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":22980.35714285714,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":6279,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":26853.636363636364,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":7329,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":26478.095238095237,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":8379,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":23167.619047619046,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":9429,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":23995.238095238095,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":10479,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":23168.571428571428,
+      "recv-bytes-rate":0.0
+    }]
+  },
+  "type: baremetal, queue: lazy-queue, consumers: 10, producers: 1":{
+    "send-bytes-rate":0.0,
+    "recv-msg-rate":39452.79520821449,
+    "avg-latency":6428974,
+    "send-msg-rate":1879.278379920137,
+    "recv-bytes-rate":0.0,
+    "samples":[{
+      "elapsed":1000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":18625.0,
+      "max-latency":508212,
+      "min-latency":34239,
+      "avg-latency":357580,
+      "send-msg-rate":10127.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":2000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37675.0,
+      "max-latency":1310702,
+      "min-latency":505457,
+      "avg-latency":909098,
+      "send-msg-rate":16730.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":3000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":41042.0,
+      "max-latency":2036494,
+      "min-latency":1278999,
+      "avg-latency":1650660,
+      "send-msg-rate":12762.0,
       "recv-bytes-rate":0.0
     },{
       "elapsed":4000,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":50646.0,
-      "max-latency":3639472,
-      "min-latency":2577785,
-      "avg-latency":3115854,
-      "send-msg-rate":17249.0,
+      "recv-msg-rate":43833.0,
+      "max-latency":2489698,
+      "min-latency":1796281,
+      "avg-latency":2146292,
+      "send-msg-rate":3475.0,
       "recv-bytes-rate":0.0
     },{
       "elapsed":5000,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48351.0,
-      "max-latency":4588838,
-      "min-latency":3567265,
-      "avg-latency":4084261,
-      "send-msg-rate":30099.0,
+      "recv-msg-rate":42994.0,
+      "max-latency":3396969,
+      "min-latency":2489314,
+      "avg-latency":2954531,
+      "send-msg-rate":1738.0,
       "recv-bytes-rate":0.0
     },{
       "elapsed":6000,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49100.0,
-      "max-latency":5593482,
-      "min-latency":4488800,
-      "avg-latency":5084245,
-      "send-msg-rate":20097.0,
+      "recv-msg-rate":38815.0,
+      "max-latency":4277142,
+      "min-latency":3396966,
+      "avg-latency":3837352,
+      "send-msg-rate":5155.0,
       "recv-bytes-rate":0.0
     },{
       "elapsed":7000,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48008.0,
-      "max-latency":6561877,
-      "min-latency":5394462,
-      "avg-latency":5987147,
-      "send-msg-rate":49714.0,
+      "recv-msg-rate":37126.0,
+      "max-latency":5135992,
+      "min-latency":4238213,
+      "avg-latency":4687311,
+      "send-msg-rate":4691.0,
       "recv-bytes-rate":0.0
     },{
       "elapsed":8000,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49551.0,
-      "max-latency":7544911,
-      "min-latency":6383990,
-      "avg-latency":6959269,
-      "send-msg-rate":27314.0,
+      "recv-msg-rate":36279.0,
+      "max-latency":5905065,
+      "min-latency":5078707,
+      "avg-latency":5491459,
+      "send-msg-rate":6082.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":9000,
+      "elapsed":9004,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48380.0,
-      "max-latency":8531600,
-      "min-latency":7356839,
-      "avg-latency":7930336,
-      "send-msg-rate":1214.0,
+      "recv-msg-rate":36218.12749003984,
+      "max-latency":6658016,
+      "min-latency":5870448,
+      "avg-latency":6285969,
+      "send-msg-rate":4326.693227091633,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":10000,
+      "elapsed":10004,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49257.0,
-      "max-latency":9506442,
-      "min-latency":8321559,
-      "avg-latency":8883214,
-      "send-msg-rate":18650.0,
+      "recv-msg-rate":40509.0,
+      "max-latency":7158149,
+      "min-latency":6605316,
+      "avg-latency":6863364,
+      "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":11000,
+      "elapsed":11004,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48308.0,
-      "max-latency":10500494,
-      "min-latency":9164929,
-      "avg-latency":9813456,
+      "recv-msg-rate":41986.0,
+      "max-latency":7619388,
+      "min-latency":6624884,
+      "avg-latency":7130199,
+      "send-msg-rate":4344.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":12004,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":40662.0,
+      "max-latency":7769334,
+      "min-latency":6784804,
+      "avg-latency":7281727,
       "send-msg-rate":1.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":12000,
+      "elapsed":13012,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48801.0,
-      "max-latency":11496238,
-      "min-latency":9882161,
-      "avg-latency":10769360,
+      "recv-msg-rate":36267.857142857145,
+      "max-latency":7845513,
+      "min-latency":6965071,
+      "avg-latency":7400527,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":14013,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38360.63936063936,
+      "max-latency":8023641,
+      "min-latency":6963997,
+      "avg-latency":7469002,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":15014,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37054.945054945056,
+      "max-latency":8102413,
+      "min-latency":6899381,
+      "avg-latency":7487821,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":16014,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37718.0,
+      "max-latency":8316653,
+      "min-latency":7416407,
+      "avg-latency":7852985,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":17020,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":41532.80318091451,
+      "max-latency":8362479,
+      "min-latency":7174100,
+      "avg-latency":7645517,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":18024,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":43023.90438247012,
+      "max-latency":8099310,
+      "min-latency":7072080,
+      "avg-latency":7521959,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    }]
+  },
+  "type: vps, queue: normal-queue, consumers: 0, producers: 1":{
+    "send-bytes-rate":0.0,
+    "recv-msg-rate":0.0,
+    "send-msg-rate":22510.034602076124,
+    "recv-bytes-rate":0.0,
+    "samples":[{
+      "elapsed":1047,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":36392.550143266475,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":2107,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":42264.15094339623,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":3227,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":22666.964285714286,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":4227,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":30815.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":5317,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":19864.22018348624,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":6447,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":23963.716814159292,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":7737,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":18368.217054263565,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":8747,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":27648.51485148515,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":10007,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":22834.920634920636,
+      "recv-bytes-rate":0.0
+    }]
+  },
+  "type: vps, queue: normal-queue, consumers: 0, producers: 10":{
+    "send-bytes-rate":0.0,
+    "recv-msg-rate":0.0,
+    "send-msg-rate":64891.71875,
+    "recv-bytes-rate":0.0,
+    "samples":[{
+      "elapsed":1000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":144391.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":2010,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":173378.21782178216,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":3010,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":108530.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":4039,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":69434.40233236151,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":5182,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":67374.45319335083,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":6190,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":72514.88095238095,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":7190,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":65803.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":8330,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":61248.245614035084,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":9349,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":73909.71540726202,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":10439,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":49778.89908256881,
+      "recv-bytes-rate":0.0
+    }]
+  },
+  "type: vps, queue: normal-queue, consumers: 10, producers: 10":{
+    "send-bytes-rate":0.0,
+    "recv-msg-rate":37426.31473705259,
+    "avg-latency":22451161,
+    "send-msg-rate":1534.0487458063942,
+    "recv-bytes-rate":0.0,
+    "samples":[{
+      "elapsed":1000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":8595.0,
+      "max-latency":408103,
+      "min-latency":19359,
+      "avg-latency":229358,
+      "send-msg-rate":66488.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":2000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":35017.0,
+      "max-latency":1405495,
+      "min-latency":368575,
+      "avg-latency":919018,
+      "send-msg-rate":8579.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":3001,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":41368.631368631366,
+      "max-latency":2400075,
+      "min-latency":1362767,
+      "avg-latency":1898391,
+      "send-msg-rate":7714.285714285715,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":4001,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":35717.0,
+      "max-latency":3394354,
+      "min-latency":2343533,
+      "avg-latency":2872238,
+      "send-msg-rate":28691.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":5001,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":33014.0,
+      "max-latency":4390623,
+      "min-latency":3328877,
+      "avg-latency":3862897,
+      "send-msg-rate":6328.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":6001,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34686.0,
+      "max-latency":5370834,
+      "min-latency":4326007,
+      "avg-latency":4807017,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":7001,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34538.0,
+      "max-latency":6359786,
+      "min-latency":5301450,
+      "avg-latency":5840117,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":8005,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38311.75298804781,
+      "max-latency":7350171,
+      "min-latency":6298598,
+      "avg-latency":6809385,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":9005,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":42001.0,
+      "max-latency":8352575,
+      "min-latency":7281069,
+      "avg-latency":7817389,
+      "send-msg-rate":12749.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":10005,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37936.0,
+      "max-latency":9328695,
+      "min-latency":8238618,
+      "avg-latency":8780811,
+      "send-msg-rate":35143.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":11005,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":35644.0,
+      "max-latency":10311748,
+      "min-latency":9235647,
+      "avg-latency":9770209,
+      "send-msg-rate":14818.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":12005,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34809.0,
+      "max-latency":11300115,
+      "min-latency":10185849,
+      "avg-latency":10743804,
       "send-msg-rate":2.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":13000,
+      "elapsed":13005,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":47717.0,
-      "max-latency":12492869,
-      "min-latency":10874829,
-      "avg-latency":11707623,
-      "send-msg-rate":3.0,
+      "recv-msg-rate":36385.0,
+      "max-latency":12292215,
+      "min-latency":11182434,
+      "avg-latency":11733223,
+      "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":14000,
+      "elapsed":14005,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":45849.0,
-      "max-latency":13489290,
-      "min-latency":11834317,
-      "avg-latency":12682018,
-      "send-msg-rate":1.0,
+      "recv-msg-rate":36579.0,
+      "max-latency":13291119,
+      "min-latency":11847945,
+      "avg-latency":12696448,
+      "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":15000,
+      "elapsed":15009,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48421.0,
-      "max-latency":14484297,
-      "min-latency":9035746,
-      "avg-latency":13508003,
+      "recv-msg-rate":37134.46215139442,
+      "max-latency":14288219,
+      "min-latency":12605318,
+      "avg-latency":13600584,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":16009,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39864.0,
+      "max-latency":15268173,
+      "min-latency":12647430,
+      "avg-latency":14431389,
       "send-msg-rate":2.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":16000,
+      "elapsed":17009,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":46853.0,
-      "max-latency":15479123,
-      "min-latency":9656519,
-      "avg-latency":14149767,
+      "recv-msg-rate":37187.0,
+      "max-latency":16258587,
+      "min-latency":12784003,
+      "avg-latency":15131098,
+      "send-msg-rate":2.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":18009,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":31151.0,
+      "max-latency":17247335,
+      "min-latency":13022157,
+      "avg-latency":15782558,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":17000,
+      "elapsed":19009,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48802.0,
-      "max-latency":16473449,
-      "min-latency":10134172,
-      "avg-latency":14712986,
-      "send-msg-rate":0.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":18000,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":42575.0,
-      "max-latency":17469374,
-      "min-latency":11128702,
-      "avg-latency":15802393,
-      "send-msg-rate":0.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":19000,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":48806.0,
-      "max-latency":18466673,
-      "min-latency":12124927,
-      "avg-latency":16415412,
+      "recv-msg-rate":29851.0,
+      "max-latency":18230773,
+      "min-latency":14019541,
+      "avg-latency":16780279,
       "send-msg-rate":1.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":20000,
+      "elapsed":20009,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48424.0,
-      "max-latency":19461013,
-      "min-latency":12607482,
-      "avg-latency":16879917,
+      "recv-msg-rate":34737.0,
+      "max-latency":19221292,
+      "min-latency":15016315,
+      "avg-latency":17767358,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":21000,
+      "elapsed":21010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49310.0,
-      "max-latency":20454174,
-      "min-latency":13514168,
-      "avg-latency":17800802,
+      "recv-msg-rate":38209.79020979021,
+      "max-latency":20181402,
+      "min-latency":16013946,
+      "avg-latency":18416191,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":22000,
+      "elapsed":22010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":44401.0,
-      "max-latency":21449347,
-      "min-latency":14511058,
-      "avg-latency":18926454,
+      "recv-msg-rate":38558.0,
+      "max-latency":21157488,
+      "min-latency":17009738,
+      "avg-latency":19389029,
+      "send-msg-rate":1.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":23010,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36966.0,
+      "max-latency":22154833,
+      "min-latency":18005129,
+      "avg-latency":20519929,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":23000,
+      "elapsed":24010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48454.0,
-      "max-latency":22445707,
-      "min-latency":15503586,
-      "avg-latency":19636341,
+      "recv-msg-rate":37707.0,
+      "max-latency":23146795,
+      "min-latency":13238767,
+      "avg-latency":20942663,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":24000,
+      "elapsed":25010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49184.0,
-      "max-latency":23438788,
-      "min-latency":16243884,
-      "avg-latency":20044103,
+      "recv-msg-rate":32937.0,
+      "max-latency":24106339,
+      "min-latency":14083854,
+      "avg-latency":21239926,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":25000,
+      "elapsed":26010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":46768.0,
-      "max-latency":24435535,
-      "min-latency":17239584,
-      "avg-latency":20862110,
+      "recv-msg-rate":31527.0,
+      "max-latency":25079836,
+      "min-latency":15082449,
+      "avg-latency":21398516,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":26000,
+      "elapsed":27010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48236.0,
-      "max-latency":25431488,
-      "min-latency":18231526,
-      "avg-latency":21913025,
+      "recv-msg-rate":37416.0,
+      "max-latency":26025752,
+      "min-latency":16077252,
+      "avg-latency":22407695,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":27000,
+      "elapsed":28010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49287.0,
-      "max-latency":26425870,
-      "min-latency":19225865,
-      "avg-latency":22920921,
+      "recv-msg-rate":35863.0,
+      "max-latency":27025362,
+      "min-latency":17074561,
+      "avg-latency":22808018,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":28000,
+      "elapsed":29010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":47261.0,
-      "max-latency":27421080,
-      "min-latency":20221979,
-      "avg-latency":23879974,
+      "recv-msg-rate":36751.0,
+      "max-latency":27811408,
+      "min-latency":18070882,
+      "avg-latency":23632780,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":29000,
+      "elapsed":30010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":47366.0,
-      "max-latency":28397174,
-      "min-latency":21216051,
-      "avg-latency":24714332,
+      "recv-msg-rate":38479.0,
+      "max-latency":26923709,
+      "min-latency":18527818,
+      "avg-latency":23693112,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":30000,
+      "elapsed":31010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":47331.0,
-      "max-latency":29395485,
-      "min-latency":22212054,
-      "avg-latency":25833270,
+      "recv-msg-rate":37630.0,
+      "max-latency":27920212,
+      "min-latency":19533078,
+      "avg-latency":24375488,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":31000,
+      "elapsed":32010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":46468.0,
-      "max-latency":30391152,
-      "min-latency":23208626,
-      "avg-latency":26445261,
+      "recv-msg-rate":35691.0,
+      "max-latency":28916544,
+      "min-latency":20521190,
+      "avg-latency":25255543,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":32000,
+      "elapsed":33010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":42635.0,
-      "max-latency":31306651,
-      "min-latency":24204705,
-      "avg-latency":27693675,
+      "recv-msg-rate":35945.0,
+      "max-latency":29913337,
+      "min-latency":21516879,
+      "avg-latency":26774388,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":33000,
+      "elapsed":34010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":44977.0,
-      "max-latency":32302643,
-      "min-latency":25200059,
-      "avg-latency":28673263,
+      "recv-msg-rate":36145.0,
+      "max-latency":30888352,
+      "min-latency":22514009,
+      "avg-latency":27699107,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":34000,
+      "elapsed":35010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":45273.0,
-      "max-latency":32708583,
-      "min-latency":26197337,
-      "avg-latency":29109689,
+      "recv-msg-rate":36578.0,
+      "max-latency":31886346,
+      "min-latency":23514273,
+      "avg-latency":28417358,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":35000,
+      "elapsed":36010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":45174.0,
-      "max-latency":33650926,
-      "min-latency":27137919,
-      "avg-latency":29751205,
+      "recv-msg-rate":38888.0,
+      "max-latency":32872536,
+      "min-latency":24506891,
+      "avg-latency":29180077,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":36000,
+      "elapsed":37010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49263.0,
-      "max-latency":34632145,
-      "min-latency":28133583,
-      "avg-latency":30738207,
+      "recv-msg-rate":39867.0,
+      "max-latency":33876671,
+      "min-latency":25504595,
+      "avg-latency":29333098,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":37000,
+      "elapsed":38010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49038.0,
-      "max-latency":35608642,
-      "min-latency":29098230,
-      "avg-latency":31647831,
+      "recv-msg-rate":37718.0,
+      "max-latency":34814435,
+      "min-latency":26496604,
+      "avg-latency":29879950,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":38000,
+      "elapsed":39010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":51101.0,
-      "max-latency":36595999,
-      "min-latency":30092373,
-      "avg-latency":32577741,
+      "recv-msg-rate":38902.0,
+      "max-latency":35805404,
+      "min-latency":27489258,
+      "avg-latency":30401761,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":39000,
+      "elapsed":40010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":47888.0,
-      "max-latency":37586418,
-      "min-latency":31088961,
-      "avg-latency":33462079,
+      "recv-msg-rate":38042.0,
+      "max-latency":36316378,
+      "min-latency":28483681,
+      "avg-latency":31057647,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":40000,
+      "elapsed":41010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48962.0,
-      "max-latency":38576598,
-      "min-latency":31775661,
-      "avg-latency":34197270,
+      "recv-msg-rate":38240.0,
+      "max-latency":32189551,
+      "min-latency":29880091,
+      "avg-latency":31160475,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":41000,
+      "elapsed":42010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":50196.0,
-      "max-latency":38618237,
-      "min-latency":32172382,
-      "avg-latency":34884788,
+      "recv-msg-rate":39985.0,
+      "max-latency":33177459,
+      "min-latency":30835331,
+      "avg-latency":32045370,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":42000,
+      "elapsed":43010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":45945.0,
-      "max-latency":38766896,
-      "min-latency":33165484,
-      "avg-latency":35794756,
+      "recv-msg-rate":37155.0,
+      "max-latency":34098515,
+      "min-latency":31678783,
+      "avg-latency":33143278,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":43000,
+      "elapsed":44010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49548.0,
-      "max-latency":39763616,
-      "min-latency":34160002,
-      "avg-latency":36791426,
+      "recv-msg-rate":40306.0,
+      "max-latency":35058171,
+      "min-latency":32594641,
+      "avg-latency":33954368,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":44000,
+      "elapsed":45010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":50050.0,
-      "max-latency":40756794,
-      "min-latency":35157633,
-      "avg-latency":37779768,
+      "recv-msg-rate":37957.0,
+      "max-latency":36015466,
+      "min-latency":33515729,
+      "avg-latency":34856352,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":45000,
+      "elapsed":46010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49460.0,
-      "max-latency":41753233,
-      "min-latency":36149100,
-      "avg-latency":38773567,
+      "recv-msg-rate":36857.0,
+      "max-latency":36928311,
+      "min-latency":34424223,
+      "avg-latency":36070018,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":46000,
+      "elapsed":47010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48114.0,
-      "max-latency":42749524,
-      "min-latency":37142229,
-      "avg-latency":39773913,
+      "recv-msg-rate":35444.0,
+      "max-latency":37846792,
+      "min-latency":36468408,
+      "avg-latency":37184015,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":47000,
+      "elapsed":48010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49637.0,
-      "max-latency":43614239,
-      "min-latency":37358597,
-      "avg-latency":40600015,
+      "recv-msg-rate":35971.0,
+      "max-latency":38767837,
+      "min-latency":37360541,
+      "avg-latency":38068672,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":48000,
+      "elapsed":49010,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":44677.0,
-      "max-latency":43977246,
-      "min-latency":37895057,
-      "avg-latency":41168489,
+      "recv-msg-rate":42418.0,
+      "max-latency":39679743,
+      "min-latency":38281323,
+      "avg-latency":38989181,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    }]
+  },
+  "type: vps, queue: lazy-queue, consumers: 0, producers: 1":{
+    "send-bytes-rate":0.0,
+    "recv-msg-rate":0.0,
+    "send-msg-rate":27789.615384615383,
+    "recv-bytes-rate":0.0,
+    "samples":[{
+      "elapsed":1017,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":28143.559488692234,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":2017,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":28810.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":3075,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":31905.4820415879,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":4075,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":31861.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":5095,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":21573.529411764706,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":6175,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":24133.333333333332,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":7175,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":26592.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":8195,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":23331.37254901961,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":9275,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":0.0,
+      "send-msg-rate":23329.62962962963,
+      "recv-bytes-rate":0.0
+    }]
+  },
+  "type: baremetal, queue: lazy-queue, consumers: 10, producers: 10":{
+    "send-bytes-rate":0.0,
+    "recv-msg-rate":36431.80169871227,
+    "avg-latency":29430335,
+    "send-msg-rate":2456.847228713717,
+    "recv-bytes-rate":0.0,
+    "samples":[{
+      "elapsed":1001,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":5799.200799200799,
+      "max-latency":358698,
+      "min-latency":16605,
+      "avg-latency":207070,
+      "send-msg-rate":52612.38761238761,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":2001,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":33459.0,
+      "max-latency":1360520,
+      "min-latency":332712,
+      "avg-latency":874269,
+      "send-msg-rate":23929.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":3001,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36268.0,
+      "max-latency":2347181,
+      "min-latency":1283300,
+      "avg-latency":1831819,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":49000,
+      "elapsed":4001,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":43118.0,
-      "max-latency":44969859,
-      "min-latency":38890018,
-      "avg-latency":42146076,
+      "recv-msg-rate":32874.0,
+      "max-latency":3344041,
+      "min-latency":2275999,
+      "avg-latency":2786832,
+      "send-msg-rate":7855.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":5001,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37555.0,
+      "max-latency":4341527,
+      "min-latency":3272909,
+      "avg-latency":3807045,
+      "send-msg-rate":20150.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":6004,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":31652.043868394816,
+      "max-latency":5300593,
+      "min-latency":4268181,
+      "avg-latency":4810501,
+      "send-msg-rate":16417.746759720838,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":7004,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":33974.0,
+      "max-latency":6300003,
+      "min-latency":5258696,
+      "avg-latency":5740940,
+      "send-msg-rate":6704.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":8004,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34779.0,
+      "max-latency":7292157,
+      "min-latency":6213241,
+      "avg-latency":6772082,
+      "send-msg-rate":9171.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":9004,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34976.0,
+      "max-latency":8253836,
+      "min-latency":7210709,
+      "avg-latency":7737362,
+      "send-msg-rate":869.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":10004,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":33569.0,
+      "max-latency":9249828,
+      "min-latency":8190455,
+      "avg-latency":8733048,
+      "send-msg-rate":57444.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":11004,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":40225.0,
+      "max-latency":10245388,
+      "min-latency":9150201,
+      "avg-latency":9702965,
+      "send-msg-rate":41627.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":12004,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37835.0,
+      "max-latency":11226834,
+      "min-latency":10096475,
+      "avg-latency":10635856,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":50000,
+      "elapsed":13004,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":47238.0,
-      "max-latency":45964325,
-      "min-latency":39890141,
-      "avg-latency":42940178,
+      "recv-msg-rate":36049.0,
+      "max-latency":12200623,
+      "min-latency":11091393,
+      "avg-latency":11657576,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":51000,
+      "elapsed":14008,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49876.0,
-      "max-latency":46954143,
-      "min-latency":40883418,
-      "avg-latency":43978403,
+      "recv-msg-rate":38495.01992031872,
+      "max-latency":13220088,
+      "min-latency":12046247,
+      "avg-latency":12606051,
+      "send-msg-rate":0.9960159362549801,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":15008,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37239.0,
+      "max-latency":14089100,
+      "min-latency":11184872,
+      "avg-latency":13434286,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":52000,
+      "elapsed":16008,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48495.0,
-      "max-latency":47945612,
-      "min-latency":41879818,
-      "avg-latency":44954269,
+      "recv-msg-rate":33307.0,
+      "max-latency":15065702,
+      "min-latency":11958111,
+      "avg-latency":14110999,
+      "send-msg-rate":1.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":17013,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36144.27860696518,
+      "max-latency":16047955,
+      "min-latency":12952711,
+      "avg-latency":15160217,
+      "send-msg-rate":0.9950248756218906,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":18013,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39123.0,
+      "max-latency":17027027,
+      "min-latency":13999276,
+      "avg-latency":16198513,
+      "send-msg-rate":1.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":19016,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34647.05882352941,
+      "max-latency":17973802,
+      "min-latency":14014966,
+      "avg-latency":17013993,
+      "send-msg-rate":0.9970089730807578,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":20016,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37959.0,
+      "max-latency":18971403,
+      "min-latency":14963271,
+      "avg-latency":17905666,
+      "send-msg-rate":1.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":21016,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39466.0,
+      "max-latency":19951933,
+      "min-latency":15703315,
+      "avg-latency":18595145,
+      "send-msg-rate":1.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":22016,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36802.0,
+      "max-latency":20854049,
+      "min-latency":14251501,
+      "avg-latency":18793942,
+      "send-msg-rate":1.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":23016,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37102.0,
+      "max-latency":21850614,
+      "min-latency":15200447,
+      "avg-latency":19544933,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":53000,
+      "elapsed":24023,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":46853.0,
-      "max-latency":48939445,
-      "min-latency":42873981,
-      "avg-latency":45892260,
+      "recv-msg-rate":37280.03972194638,
+      "max-latency":22847814,
+      "min-latency":14020767,
+      "avg-latency":19809174,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":54000,
+      "elapsed":25028,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":50040.0,
-      "max-latency":49808812,
-      "min-latency":43868018,
-      "avg-latency":46763205,
+      "recv-msg-rate":37212.935323383084,
+      "max-latency":23677121,
+      "min-latency":13696215,
+      "avg-latency":19252253,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":55000,
+      "elapsed":26028,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":51258.0,
-      "max-latency":50262617,
-      "min-latency":44861341,
-      "avg-latency":47496778,
+      "recv-msg-rate":38127.0,
+      "max-latency":24672764,
+      "min-latency":14504212,
+      "avg-latency":19437234,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":56000,
+      "elapsed":27028,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":52018.0,
-      "max-latency":50292417,
-      "min-latency":45850768,
-      "avg-latency":47603713,
+      "recv-msg-rate":36224.0,
+      "max-latency":25673794,
+      "min-latency":15501171,
+      "avg-latency":19845959,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":57000,
+      "elapsed":28028,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":51242.0,
-      "max-latency":49039652,
-      "min-latency":46835582,
-      "avg-latency":47842103,
+      "recv-msg-rate":33297.0,
+      "max-latency":26668044,
+      "min-latency":16497299,
+      "avg-latency":21169728,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":58000,
+      "elapsed":29028,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":52913.0,
-      "max-latency":50016864,
-      "min-latency":47804901,
-      "avg-latency":48927034,
+      "recv-msg-rate":33971.0,
+      "max-latency":27492919,
+      "min-latency":17494515,
+      "avg-latency":21844329,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":59000,
+      "elapsed":30028,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":52104.0,
-      "max-latency":50991895,
-      "min-latency":48782482,
-      "avg-latency":49950623,
+      "recv-msg-rate":27548.0,
+      "max-latency":26712146,
+      "min-latency":18492524,
+      "avg-latency":22016732,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":31028,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34194.0,
+      "max-latency":27712275,
+      "min-latency":19480589,
+      "avg-latency":22867994,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":32028,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39188.0,
+      "max-latency":28708098,
+      "min-latency":20475352,
+      "avg-latency":24092859,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":33028,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":26137.0,
+      "max-latency":29601790,
+      "min-latency":21471410,
+      "avg-latency":25157619,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":34028,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":29432.0,
+      "max-latency":30601460,
+      "min-latency":22469860,
+      "avg-latency":26201588,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":35028,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37902.0,
+      "max-latency":31600957,
+      "min-latency":23468144,
+      "avg-latency":27063167,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":36028,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":31373.0,
+      "max-latency":32594890,
+      "min-latency":24466094,
+      "avg-latency":28080420,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":37028,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":29819.0,
+      "max-latency":33591333,
+      "min-latency":25461755,
+      "avg-latency":29274890,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":38028,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39854.0,
+      "max-latency":33714553,
+      "min-latency":26457016,
+      "avg-latency":29572017,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":39028,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37716.0,
+      "max-latency":34518159,
+      "min-latency":27453049,
+      "avg-latency":30373463,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":40028,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34955.0,
+      "max-latency":35516498,
+      "min-latency":28454787,
+      "avg-latency":31607005,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":41028,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34563.0,
+      "max-latency":36482496,
+      "min-latency":29538218,
+      "avg-latency":32641780,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":42028,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38669.0,
+      "max-latency":37410370,
+      "min-latency":30534052,
+      "avg-latency":33753224,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":43028,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":32857.0,
+      "max-latency":38401887,
+      "min-latency":31524948,
+      "avg-latency":34501617,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":44028,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37134.0,
+      "max-latency":39355152,
+      "min-latency":32520980,
+      "avg-latency":35657360,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":45032,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":35732.07171314741,
+      "max-latency":40324403,
+      "min-latency":33527909,
+      "avg-latency":36570882,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":46032,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39919.0,
+      "max-latency":41320957,
+      "min-latency":34510620,
+      "avg-latency":37537295,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":47032,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36205.0,
+      "max-latency":42008182,
+      "min-latency":35506074,
+      "avg-latency":38566144,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":48032,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38389.0,
+      "max-latency":42969879,
+      "min-latency":36501318,
+      "avg-latency":39072102,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":49032,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36637.0,
+      "max-latency":43890641,
+      "min-latency":37496773,
+      "avg-latency":40267058,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":50032,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39262.0,
+      "max-latency":44888678,
+      "min-latency":38497446,
+      "avg-latency":40981824,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":51032,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38347.0,
+      "max-latency":45748186,
+      "min-latency":39487770,
+      "avg-latency":41965714,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":52032,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":41093.0,
+      "max-latency":46741956,
+      "min-latency":40452435,
+      "avg-latency":42881437,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":53032,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":33135.0,
+      "max-latency":47368839,
+      "min-latency":41429067,
+      "avg-latency":43551864,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":54032,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":31363.0,
+      "max-latency":48362886,
+      "min-latency":42422583,
+      "avg-latency":44781530,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":55032,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36098.0,
+      "max-latency":49357671,
+      "min-latency":43420950,
+      "avg-latency":45671657,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":56036,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36861.55378486056,
+      "max-latency":49918888,
+      "min-latency":45056585,
+      "avg-latency":46546325,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":57036,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37578.0,
+      "max-latency":49362170,
+      "min-latency":46023214,
+      "avg-latency":47179182,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":58038,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":42203.59281437126,
+      "max-latency":50273217,
+      "min-latency":46996956,
+      "avg-latency":47999983,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":59043,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39890.54726368159,
+      "max-latency":50970434,
+      "min-latency":47980154,
+      "avg-latency":49009656,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":60048,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37127.3631840796,
+      "max-latency":51580585,
+      "min-latency":48904251,
+      "avg-latency":49807960,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":61048,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38552.0,
+      "max-latency":51330656,
+      "min-latency":49901370,
+      "avg-latency":50523119,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":62048,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39363.0,
+      "max-latency":52264277,
+      "min-latency":50829800,
+      "avg-latency":51430603,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":63048,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39035.0,
+      "max-latency":53254526,
+      "min-latency":51756238,
+      "avg-latency":52402311,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":64048,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39999.0,
+      "max-latency":54114028,
+      "min-latency":52676248,
+      "avg-latency":53320828,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":65048,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37512.0,
+      "max-latency":54624284,
+      "min-latency":53666440,
+      "avg-latency":54158083,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":66048,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":40148.0,
+      "max-latency":55461098,
+      "min-latency":54586604,
+      "avg-latency":55031682,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     }]
   },
   "type: baremetal, queue: normal-queue, consumers: 10, producers: 10":{
     "send-bytes-rate":0.0,
-    "recv-msg-rate":49058.49582172702,
-    "avg-latency":27109833,
-    "send-msg-rate":3204.4139704306835,
+    "recv-msg-rate":36313.28394481028,
+    "avg-latency":25048250,
+    "send-msg-rate":1881.447946064597,
     "recv-bytes-rate":0.0,
     "samples":[{
       "elapsed":1000,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":30030.0,
-      "max-latency":769018,
-      "min-latency":27544,
-      "avg-latency":416468,
-      "send-msg-rate":79410.0,
+      "recv-msg-rate":6422.0,
+      "max-latency":402427,
+      "min-latency":31659,
+      "avg-latency":211457,
+      "send-msg-rate":60413.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":2000,
+      "elapsed":2002,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":44435.0,
-      "max-latency":1763488,
-      "min-latency":733596,
-      "avg-latency":1245875,
-      "send-msg-rate":33110.0,
+      "recv-msg-rate":31802.395209580838,
+      "max-latency":1401792,
+      "min-latency":380230,
+      "avg-latency":949186,
+      "send-msg-rate":8399.201596806388,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":3000,
+      "elapsed":3002,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48887.0,
-      "max-latency":2760185,
-      "min-latency":1728618,
-      "avg-latency":2234011,
-      "send-msg-rate":0.0,
+      "recv-msg-rate":39195.0,
+      "max-latency":2369661,
+      "min-latency":1358063,
+      "avg-latency":1855799,
+      "send-msg-rate":16949.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":4000,
+      "elapsed":4002,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48976.0,
-      "max-latency":3752922,
-      "min-latency":2718344,
-      "avg-latency":3240473,
-      "send-msg-rate":0.0,
+      "recv-msg-rate":34028.0,
+      "max-latency":3356039,
+      "min-latency":2344696,
+      "avg-latency":2845769,
+      "send-msg-rate":14659.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":5000,
+      "elapsed":5002,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":47461.0,
-      "max-latency":4747522,
-      "min-latency":3662785,
-      "avg-latency":4187194,
-      "send-msg-rate":0.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":6000,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":45351.0,
-      "max-latency":5721404,
-      "min-latency":4659134,
-      "avg-latency":5197598,
-      "send-msg-rate":0.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":7000,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":48147.0,
-      "max-latency":6691547,
-      "min-latency":5601489,
-      "avg-latency":6180324,
-      "send-msg-rate":12064.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":8000,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":47866.0,
-      "max-latency":7688775,
-      "min-latency":6597256,
-      "avg-latency":7148601,
-      "send-msg-rate":73611.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":9000,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":44844.0,
-      "max-latency":8662324,
-      "min-latency":7532575,
-      "avg-latency":8146185,
-      "send-msg-rate":68626.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":10000,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":48634.0,
-      "max-latency":9653929,
-      "min-latency":8499929,
-      "avg-latency":9090308,
-      "send-msg-rate":25149.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":11000,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":46806.0,
-      "max-latency":10653619,
-      "min-latency":8606054,
-      "avg-latency":9976950,
-      "send-msg-rate":0.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":12000,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":50982.0,
-      "max-latency":11633394,
-      "min-latency":9601066,
-      "avg-latency":10830378,
-      "send-msg-rate":0.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":13000,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":50291.0,
-      "max-latency":12622505,
-      "min-latency":10501794,
-      "avg-latency":11726726,
+      "recv-msg-rate":30154.0,
+      "max-latency":4358089,
+      "min-latency":3312794,
+      "avg-latency":3875281,
       "send-msg-rate":1.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":14000,
+      "elapsed":6002,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":50668.0,
-      "max-latency":13616187,
-      "min-latency":11494702,
-      "avg-latency":12675045,
+      "recv-msg-rate":34930.0,
+      "max-latency":5342894,
+      "min-latency":4313434,
+      "avg-latency":4853400,
+      "send-msg-rate":17792.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":7002,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":33510.0,
+      "max-latency":6346383,
+      "min-latency":5305148,
+      "avg-latency":5808027,
+      "send-msg-rate":2539.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":8002,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34800.0,
+      "max-latency":7342270,
+      "min-latency":6237783,
+      "avg-latency":6806298,
+      "send-msg-rate":14434.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":9002,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":35158.0,
+      "max-latency":8331002,
+      "min-latency":7235111,
+      "avg-latency":7816344,
+      "send-msg-rate":7382.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":10002,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34998.0,
+      "max-latency":9330040,
+      "min-latency":8232042,
+      "avg-latency":8776141,
+      "send-msg-rate":38133.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":11002,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36448.0,
+      "max-latency":10316114,
+      "min-latency":9166412,
+      "avg-latency":9768680,
+      "send-msg-rate":15710.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":12006,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":33186.254980079684,
+      "max-latency":11307604,
+      "min-latency":10163069,
+      "avg-latency":10741833,
+      "send-msg-rate":1.9920318725099602,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":13006,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34932.0,
+      "max-latency":12309753,
+      "min-latency":11163853,
+      "avg-latency":11768755,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":14006,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":31478.0,
+      "max-latency":13306850,
+      "min-latency":11637944,
+      "avg-latency":12726756,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":15007,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":29231.76823176823,
+      "max-latency":14281703,
+      "min-latency":12387854,
+      "avg-latency":13659647,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":16007,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":39839.0,
+      "max-latency":15266007,
+      "min-latency":12897263,
+      "avg-latency":14320955,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":17007,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37152.0,
+      "max-latency":16263112,
+      "min-latency":13858970,
+      "avg-latency":15178493,
+      "send-msg-rate":1.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":18007,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34000.0,
+      "max-latency":17258737,
+      "min-latency":13934626,
+      "avg-latency":15918050,
+      "send-msg-rate":1.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":19007,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":33421.0,
+      "max-latency":18188982,
+      "min-latency":14764214,
+      "avg-latency":16838673,
+      "send-msg-rate":1.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":20007,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37393.0,
+      "max-latency":19185893,
+      "min-latency":15775737,
+      "avg-latency":17822613,
       "send-msg-rate":2.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":15000,
+      "elapsed":21007,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49255.0,
-      "max-latency":14610326,
-      "min-latency":12254152,
-      "avg-latency":13555155,
-      "send-msg-rate":1.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":16000,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":50898.0,
-      "max-latency":15605341,
-      "min-latency":8713575,
-      "avg-latency":14235144,
-      "send-msg-rate":1.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":17000,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":46994.0,
-      "max-latency":16595443,
-      "min-latency":9242691,
-      "avg-latency":14770846,
-      "send-msg-rate":2.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":18000,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":47120.0,
-      "max-latency":17586373,
-      "min-latency":10240158,
-      "avg-latency":15754779,
-      "send-msg-rate":1.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":19000,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":50902.0,
-      "max-latency":18581138,
-      "min-latency":10953278,
-      "avg-latency":16433612,
-      "send-msg-rate":2.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":20004,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":47416.33466135458,
-      "max-latency":19577534,
-      "min-latency":11815770,
-      "avg-latency":16496122,
+      "recv-msg-rate":34383.0,
+      "max-latency":20151537,
+      "min-latency":16756271,
+      "avg-latency":18762599,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":21004,
+      "elapsed":22007,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":47151.0,
-      "max-latency":20565869,
-      "min-latency":12086949,
-      "avg-latency":16817773,
+      "recv-msg-rate":37179.0,
+      "max-latency":21144855,
+      "min-latency":17753434,
+      "avg-latency":19705725,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":22004,
+      "elapsed":23007,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":45731.0,
-      "max-latency":21558902,
-      "min-latency":13081064,
-      "avg-latency":17732668,
+      "recv-msg-rate":35542.0,
+      "max-latency":22112141,
+      "min-latency":17915435,
+      "avg-latency":20586150,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":23004,
+      "elapsed":24014,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":46824.0,
-      "max-latency":22538123,
-      "min-latency":14076337,
-      "avg-latency":17862487,
+      "recv-msg-rate":38622.64150943396,
+      "max-latency":23114202,
+      "min-latency":14634295,
+      "avg-latency":21010502,
+      "send-msg-rate":0.9930486593843099,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":25014,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":40331.0,
+      "max-latency":24106034,
+      "min-latency":15032428,
+      "avg-latency":20803206,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":24004,
+      "elapsed":26014,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49434.0,
-      "max-latency":23081822,
-      "min-latency":15073097,
-      "avg-latency":18285400,
+      "recv-msg-rate":34692.0,
+      "max-latency":24985096,
+      "min-latency":15673083,
+      "avg-latency":21142172,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":25004,
+      "elapsed":27014,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":42158.0,
-      "max-latency":24077995,
-      "min-latency":16063149,
-      "avg-latency":19745208,
+      "recv-msg-rate":38246.0,
+      "max-latency":25314301,
+      "min-latency":15854831,
+      "avg-latency":21358240,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":26004,
+      "elapsed":28014,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":47710.0,
-      "max-latency":25071997,
-      "min-latency":17060529,
-      "avg-latency":20856874,
+      "recv-msg-rate":37079.0,
+      "max-latency":25930516,
+      "min-latency":16849773,
+      "avg-latency":22008125,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":27004,
+      "elapsed":29014,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49532.0,
-      "max-latency":26064767,
-      "min-latency":17807303,
-      "avg-latency":20798441,
+      "recv-msg-rate":39187.0,
+      "max-latency":26792470,
+      "min-latency":17849278,
+      "avg-latency":22892532,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":28004,
+      "elapsed":30014,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":46711.0,
-      "max-latency":26695254,
-      "min-latency":18381117,
-      "avg-latency":21214416,
+      "recv-msg-rate":36465.0,
+      "max-latency":27790198,
+      "min-latency":18841307,
+      "avg-latency":24243965,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":29004,
+      "elapsed":31016,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":46988.0,
-      "max-latency":27692111,
-      "min-latency":19377213,
-      "avg-latency":21958861,
+      "recv-msg-rate":35727.54491017964,
+      "max-latency":28406323,
+      "min-latency":19835360,
+      "avg-latency":24532995,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":30004,
+      "elapsed":32016,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49959.0,
-      "max-latency":28686706,
-      "min-latency":20373310,
-      "avg-latency":22991783,
+      "recv-msg-rate":29814.0,
+      "max-latency":29380200,
+      "min-latency":20817782,
+      "avg-latency":25069203,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":31004,
+      "elapsed":33018,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":47032.0,
-      "max-latency":29685269,
-      "min-latency":21369384,
-      "avg-latency":23869568,
+      "recv-msg-rate":32960.07984031936,
+      "max-latency":30376877,
+      "min-latency":21814204,
+      "avg-latency":26175500,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":32004,
+      "elapsed":34022,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49823.0,
-      "max-latency":30678473,
-      "min-latency":22362925,
-      "avg-latency":24842114,
+      "recv-msg-rate":37273.90438247012,
+      "max-latency":31374593,
+      "min-latency":22811715,
+      "avg-latency":27403106,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":33004,
+      "elapsed":35022,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":47147.0,
-      "max-latency":31674945,
-      "min-latency":23362016,
-      "avg-latency":25401495,
+      "recv-msg-rate":37075.0,
+      "max-latency":32344185,
+      "min-latency":23812697,
+      "avg-latency":28510100,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":34004,
+      "elapsed":36022,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48222.0,
-      "max-latency":32668840,
-      "min-latency":24354150,
-      "avg-latency":26414312,
+      "recv-msg-rate":38516.0,
+      "max-latency":33337141,
+      "min-latency":24807674,
+      "avg-latency":29211795,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":35004,
+      "elapsed":37022,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48428.0,
-      "max-latency":33666580,
-      "min-latency":25350923,
-      "avg-latency":27451337,
+      "recv-msg-rate":39485.0,
+      "max-latency":33643736,
+      "min-latency":25803289,
+      "avg-latency":29390972,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":36004,
+      "elapsed":38022,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":45227.0,
-      "max-latency":34661416,
-      "min-latency":26347559,
-      "avg-latency":28330433,
+      "recv-msg-rate":37718.0,
+      "max-latency":34453684,
+      "min-latency":26797021,
+      "avg-latency":29902940,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":37004,
+      "elapsed":39022,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49349.0,
-      "max-latency":35658820,
-      "min-latency":27340652,
-      "avg-latency":29259339,
+      "recv-msg-rate":37384.0,
+      "max-latency":35304205,
+      "min-latency":27770113,
+      "avg-latency":30856901,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":38004,
+      "elapsed":40022,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":47176.0,
-      "max-latency":36362843,
-      "min-latency":27931977,
-      "avg-latency":30076994,
+      "recv-msg-rate":37951.0,
+      "max-latency":34444558,
+      "min-latency":28760022,
+      "avg-latency":31277389,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":39004,
+      "elapsed":41022,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":49049.0,
-      "max-latency":31952771,
-      "min-latency":28429142,
-      "avg-latency":30560699,
+      "recv-msg-rate":35698.0,
+      "max-latency":35441318,
+      "min-latency":29753660,
+      "avg-latency":32119715,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":40004,
+      "elapsed":42022,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":47772.0,
-      "max-latency":32951289,
-      "min-latency":29425237,
-      "avg-latency":31483750,
+      "recv-msg-rate":36651.0,
+      "max-latency":36364469,
+      "min-latency":30746840,
+      "avg-latency":32970286,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":41004,
+      "elapsed":43026,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":44629.0,
-      "max-latency":33937884,
-      "min-latency":30419771,
-      "avg-latency":32566862,
+      "recv-msg-rate":37433.26693227092,
+      "max-latency":37356985,
+      "min-latency":31736494,
+      "avg-latency":34005735,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":42004,
+      "elapsed":44026,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":50244.0,
-      "max-latency":34931464,
-      "min-latency":31412776,
-      "avg-latency":33475062,
+      "recv-msg-rate":38112.0,
+      "max-latency":38245205,
+      "min-latency":32733499,
+      "avg-latency":35011065,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":43004,
+      "elapsed":45026,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":45824.0,
-      "max-latency":35926806,
-      "min-latency":32404368,
-      "avg-latency":34528157,
+      "recv-msg-rate":33150.0,
+      "max-latency":39243334,
+      "min-latency":33726429,
+      "avg-latency":36118073,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":44004,
+      "elapsed":46026,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":50874.0,
-      "max-latency":36922638,
-      "min-latency":33399207,
-      "avg-latency":35474481,
+      "recv-msg-rate":33327.0,
+      "max-latency":40195648,
+      "min-latency":34722286,
+      "avg-latency":36747963,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":45004,
+      "elapsed":47026,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":42810.0,
-      "max-latency":37918243,
-      "min-latency":34401069,
-      "avg-latency":36460746,
+      "recv-msg-rate":33586.0,
+      "max-latency":41185441,
+      "min-latency":35715339,
+      "avg-latency":37921375,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":46004,
+      "elapsed":48026,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":51016.0,
-      "max-latency":38911690,
-      "min-latency":35393049,
-      "avg-latency":37433074,
+      "recv-msg-rate":38826.0,
+      "max-latency":41994305,
+      "min-latency":36636474,
+      "avg-latency":39161967,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":47004,
+      "elapsed":49026,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":47985.0,
-      "max-latency":39905247,
-      "min-latency":36386334,
-      "avg-latency":38470605,
+      "recv-msg-rate":40242.0,
+      "max-latency":42865152,
+      "min-latency":37556846,
+      "avg-latency":39775986,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":48004,
+      "elapsed":50026,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48149.0,
-      "max-latency":40902144,
-      "min-latency":37381632,
-      "avg-latency":39371430,
+      "recv-msg-rate":35024.0,
+      "max-latency":43858076,
+      "min-latency":38549183,
+      "avg-latency":40490577,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":49004,
+      "elapsed":51026,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":45600.0,
-      "max-latency":41895372,
-      "min-latency":38378774,
-      "avg-latency":40472382,
+      "recv-msg-rate":35721.0,
+      "max-latency":44853463,
+      "min-latency":39478259,
+      "avg-latency":41513113,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":50004,
+      "elapsed":52026,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":48260.0,
-      "max-latency":42890167,
-      "min-latency":39373693,
-      "avg-latency":41423623,
+      "recv-msg-rate":37690.0,
+      "max-latency":45079925,
+      "min-latency":40438446,
+      "avg-latency":42181777,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":51004,
+      "elapsed":53026,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":46910.0,
-      "max-latency":43885910,
-      "min-latency":40369024,
-      "avg-latency":42244360,
+      "recv-msg-rate":38263.0,
+      "max-latency":44755410,
+      "min-latency":42230833,
+      "avg-latency":43252230,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":52004,
+      "elapsed":54026,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":46304.0,
-      "max-latency":44882557,
-      "min-latency":41362686,
-      "avg-latency":43286248,
+      "recv-msg-rate":38567.0,
+      "max-latency":45635028,
+      "min-latency":43184853,
+      "avg-latency":44250805,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":53004,
+      "elapsed":55026,
       "send-bytes-rate":0.0,
-      "recv-msg-rate":47580.0,
-      "max-latency":45791988,
-      "min-latency":42358834,
-      "avg-latency":44245882,
-      "send-msg-rate":0.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":54004,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":51826.0,
-      "max-latency":46787207,
-      "min-latency":43351796,
-      "avg-latency":45235298,
-      "send-msg-rate":0.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":55004,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":50809.0,
-      "max-latency":47780144,
-      "min-latency":44348148,
-      "avg-latency":46212057,
-      "send-msg-rate":0.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":56004,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":51024.0,
-      "max-latency":48773003,
-      "min-latency":45342070,
-      "avg-latency":47048216,
-      "send-msg-rate":0.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":57004,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":50587.0,
-      "max-latency":49763982,
-      "min-latency":46334833,
-      "avg-latency":47971922,
-      "send-msg-rate":0.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":58004,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":51509.0,
-      "max-latency":49802869,
-      "min-latency":47327704,
-      "avg-latency":48562270,
-      "send-msg-rate":0.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":59004,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":51321.0,
-      "max-latency":50544129,
-      "min-latency":48314715,
-      "avg-latency":49368536,
-      "send-msg-rate":0.0,
-      "recv-bytes-rate":0.0
-    },{
-      "elapsed":60004,
-      "send-bytes-rate":0.0,
-      "recv-msg-rate":51602.0,
-      "max-latency":51173771,
-      "min-latency":49292291,
-      "avg-latency":50243438,
+      "recv-msg-rate":38526.0,
+      "max-latency":46001053,
+      "min-latency":44109355,
+      "avg-latency":44858873,
       "send-msg-rate":0.0,
       "recv-bytes-rate":0.0
     }]
   },
-  "type: baremetal, queue: normal-queue, consumers: 10, producers: 0":{
+  "type: vps, queue: normal-queue, consumers: 10, producers: 1":{
     "send-bytes-rate":0.0,
-    "recv-msg-rate":0.0,
-    "send-msg-rate":0.0,
+    "recv-msg-rate":39617.255163224516,
+    "avg-latency":7244787,
+    "send-msg-rate":2033.844103930713,
     "recv-bytes-rate":0.0,
-    "samples":[]
-  },
-  "type: baremetal, queue: lazy-queue, consumers: 0, producers: 0":{
-    "send-bytes-rate":0.0,
-    "recv-msg-rate":0.0,
-    "send-msg-rate":0.0,
-    "recv-bytes-rate":0.0,
-    "samples":[]
+    "samples":[{
+      "elapsed":1000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":18484.0,
+      "max-latency":512406,
+      "min-latency":15238,
+      "avg-latency":268055,
+      "send-msg-rate":11761.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":2000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":40341.0,
+      "max-latency":1268714,
+      "min-latency":472040,
+      "avg-latency":896462,
+      "send-msg-rate":16012.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":3000,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":42289.0,
+      "max-latency":2058990,
+      "min-latency":1274397,
+      "avg-latency":1690702,
+      "send-msg-rate":12667.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":4010,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38901.9801980198,
+      "max-latency":2911025,
+      "min-latency":2058927,
+      "avg-latency":2467859,
+      "send-msg-rate":2512.871287128713,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":5010,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36739.0,
+      "max-latency":3752425,
+      "min-latency":2910959,
+      "avg-latency":3328398,
+      "send-msg-rate":5078.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":6010,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34139.0,
+      "max-latency":4231119,
+      "min-latency":3478372,
+      "avg-latency":3853751,
+      "send-msg-rate":5985.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":7012,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34224.55089820359,
+      "max-latency":5138528,
+      "min-latency":4231068,
+      "avg-latency":4718121,
+      "send-msg-rate":5067.864271457086,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":8012,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":40733.0,
+      "max-latency":5999338,
+      "min-latency":5138392,
+      "avg-latency":5560287,
+      "send-msg-rate":555.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":9016,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":40341.633466135456,
+      "max-latency":6889064,
+      "min-latency":6003939,
+      "avg-latency":6441578,
+      "send-msg-rate":3661.3545816733067,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":10016,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":41565.0,
+      "max-latency":7772000,
+      "min-latency":6884818,
+      "avg-latency":7323135,
+      "send-msg-rate":5077.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":11020,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37209.163346613546,
+      "max-latency":8619028,
+      "min-latency":7771987,
+      "avg-latency":8173833,
+      "send-msg-rate":5057.768924302789,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":12020,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":34735.0,
+      "max-latency":8702140,
+      "min-latency":7583686,
+      "avg-latency":8145180,
+      "send-msg-rate":1.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":13020,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37096.0,
+      "max-latency":8739807,
+      "min-latency":7900418,
+      "avg-latency":8288824,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":14020,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":35033.0,
+      "max-latency":8850526,
+      "min-latency":7697006,
+      "avg-latency":8206670,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":15020,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":37264.0,
+      "max-latency":9308889,
+      "min-latency":7925433,
+      "avg-latency":8684058,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":16020,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":40470.0,
+      "max-latency":9040763,
+      "min-latency":8170768,
+      "avg-latency":8579034,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":17020,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":40911.0,
+      "max-latency":9060405,
+      "min-latency":8029916,
+      "avg-latency":8507538,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":18020,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":38677.0,
+      "max-latency":9027056,
+      "min-latency":7930328,
+      "avg-latency":8399133,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    },{
+      "elapsed":19020,
+      "send-bytes-rate":0.0,
+      "recv-msg-rate":36778.0,
+      "max-latency":9167626,
+      "min-latency":8140321,
+      "avg-latency":8641738,
+      "send-msg-rate":0.0,
+      "recv-bytes-rate":0.0
+    }]
   },
   "type: baremetal, queue: lazy-queue, consumers: 0, producers: 10":{
     "send-bytes-rate":0.0,
     "recv-msg-rate":0.0,
-    "send-msg-rate":88321.11251580279,
+    "send-msg-rate":68492.86188579017,
     "recv-bytes-rate":0.0,
     "samples":[{
       "elapsed":1000,
       "send-bytes-rate":0.0,
       "recv-msg-rate":0.0,
-      "send-msg-rate":23709.0,
+      "send-msg-rate":65663.0,
       "recv-bytes-rate":0.0
     },{
       "elapsed":2000,
       "send-bytes-rate":0.0,
       "recv-msg-rate":0.0,
-      "send-msg-rate":224739.0,
+      "send-msg-rate":137602.0,
       "recv-bytes-rate":0.0
     },{
       "elapsed":3000,
       "send-bytes-rate":0.0,
       "recv-msg-rate":0.0,
-      "send-msg-rate":246814.0,
+      "send-msg-rate":164655.0,
       "recv-bytes-rate":0.0
     },{
       "elapsed":4000,
       "send-bytes-rate":0.0,
       "recv-msg-rate":0.0,
-      "send-msg-rate":92591.0,
+      "send-msg-rate":143690.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":5000,
+      "elapsed":5005,
       "send-bytes-rate":0.0,
       "recv-msg-rate":0.0,
-      "send-msg-rate":85129.0,
+      "send-msg-rate":69842.78606965175,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":6178,
+      "elapsed":6005,
       "send-bytes-rate":0.0,
       "recv-msg-rate":0.0,
-      "send-msg-rate":81348.89643463497,
+      "send-msg-rate":62547.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":7228,
+      "elapsed":7005,
       "send-bytes-rate":0.0,
       "recv-msg-rate":0.0,
-      "send-msg-rate":86053.33333333333,
+      "send-msg-rate":62592.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":8258,
+      "elapsed":8005,
       "send-bytes-rate":0.0,
       "recv-msg-rate":0.0,
-      "send-msg-rate":87722.33009708738,
+      "send-msg-rate":67848.0,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":9328,
+      "elapsed":9006,
       "send-bytes-rate":0.0,
       "recv-msg-rate":0.0,
-      "send-msg-rate":77138.31775700934,
+      "send-msg-rate":61346.653346653344,
       "recv-bytes-rate":0.0
     },{
-      "elapsed":10328,
+      "elapsed":10024,
       "send-bytes-rate":0.0,
       "recv-msg-rate":0.0,
-      "send-msg-rate":89485.0,
+      "send-msg-rate":66273.08447937132,
       "recv-bytes-rate":0.0
     }]
   }

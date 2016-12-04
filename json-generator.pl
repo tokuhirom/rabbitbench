@@ -6,14 +6,14 @@ use File::Path qw/make_path/;
 
 my %type2ip = (
     'baremetal' => '10.1.73.167',
+    'vps' => '10.3.94.15',
 );
 
-make_path('spec');
 my @entries;
-for my $type (qw(baremetal)) {
+for my $type (qw(baremetal vps)) {
     for my $queue (qw(lazy-queue normal-queue)) {
         for my $consumers (0, 10) {
-            for my $producers (0, 10) {
+            for my $producers (1, 10) {
                 my $ip = $type2ip{$type} or die "Unknown type: $type\n";
                 push @entries, {
                     'name' => "type: $type, queue: $queue, consumers: $consumers, producers: $producers",
